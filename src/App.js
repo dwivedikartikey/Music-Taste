@@ -50,8 +50,8 @@ export default function App() {
       },
       {
         name: "Eena Meena Deeka",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.9/5.0",
+        singer: "Singer - Kishore Kumar"
       },
       {
         name: "Ek Ladki Bheegi Bheegi Si",
@@ -94,7 +94,7 @@ export default function App() {
       },
       {
         name: "Jugni",
-        rating: "Rating - Jugni",
+        rating: "Rating - 3.9/5.0",
         singer: "Singer - Arif Lohar & Meesha Shafi"
       },
       {
