@@ -8,45 +8,45 @@ export default function App() {
     Rock: [
       {
         name: "Nadaan Parinde",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.5/5.0",
+        singer: "Singer - A. R. Rahman"
       },
       {
         name: "Tum Ho Toh",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.4/5.0",
+        singer: "Singer - Farhan Akhtar"
       },
       {
         name: "Kabira",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.7/5.0",
+        singer: "Singer - Rekha Bhardwaj and Tochi Raina"
       },
       {
         name: "Sunn Raha Hai",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.2/5.0",
+        singer: "Singer - Ankit Tiwari"
       },
       {
         name: "Dooriyan",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.6/5.0",
+        singer: "Singer - Mohit Chauhan"
       }
     ],
     Jazz: [
       {
         name: "Aaiye Meherbaan",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.9/5.0",
+        singer: "Singer - Asha Bhosle"
       },
       {
         name: "Babuji Dheere Chalna",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 5.0/5.0",
+        singer: "Singer - Geeta Dutt"
       },
       {
         name: "Dil Ko Hazar Baar",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.3/5.0",
+        singer: "Singer - Alisha Chinai"
       },
       {
         name: "Eena Meena Deeka",
@@ -55,89 +55,89 @@ export default function App() {
       },
       {
         name: "Ek Ladki Bheegi Bheegi Si",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 5.0/5.0",
+        singer: "Singer - Kishore Kumar"
       }
     ],
     HipHop: [
       {
         name: "Say My Name",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.8/5.0",
+        singer: "Singer - Kr$na"
       },
       {
         name: "Microphone Check",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.6/5.0",
+        singer: "Singer - Raftaar"
       },
       {
         name: "Saath Ya Khilaf",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.7/5.0",
+        singer: "Singer - Kr$na ft. Raftaar"
       },
       {
         name: "Ego Friendly",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.5/5.0",
+        singer: "Singer - Muhfaad"
       },
       {
         name: "MMM",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 5.0/5.0",
+        singer: "Singer - Seedhe Maut"
       }
     ],
     Folk: [
       {
         name: "Genda Phool",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.5/5.0",
+        singer: "Singer - Ratan Kahar"
       },
       {
         name: "Jugni",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - Jugni",
+        singer: "Singer - Arif Lohar & Meesha Shafi"
       },
       {
         name: "Bumbro",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.1/5.0",
+        singer: "Singer - Jaspinder Narula,Shankar Mahadevan & Sunidhi Chauhan"
       },
       {
         name: "Ambarasariya",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 3.1/5.0",
+        singer: "Singer - Sona Mohapatra"
       },
       {
         name: "Kesariya Balam",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.2/5.0",
+        singer: "Singer - karsan Sargathiya & Salim-Sulaiman"
       }
     ],
     Pop: [
       {
         name: "Bheegi Bheegi Raaton Mein",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.9/5.0",
+        singer: "Singer - Lata Mangeshkar"
       },
       {
         name: "Genda Phool",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 3.5/5.0",
+        singer: "Singer - Badshah ft. Payal Dev"
       },
       {
         name: "Bom Diggy Diggy",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 3.4/5.0",
+        singer: "Singer - Zack Knight & Jasmin Walia"
       },
       {
         name: "Dj Waley Babu",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 3.7/5.0",
+        singer: "Singer - Badshah ft. Astha Gill"
       },
       {
         name: "Lift Karadey",
-        rating: "Rating - ",
-        singer: "Singer - "
+        rating: "Rating - 4.0/5.0",
+        singer: "Singer - Adnan Sami"
       }
     ]
   };
@@ -160,6 +160,7 @@ export default function App() {
           {item}
         </button>
       ))}
+      <hr />
       <hr />
       <div>
         <ul className="items">
