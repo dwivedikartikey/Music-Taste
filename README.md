@@ -1,2 +1,2 @@
 # Music-Taste
-Created with CodeSandbox
+This web app tells you about my music taste in different genre.
